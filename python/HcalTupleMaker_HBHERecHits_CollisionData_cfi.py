@@ -26,7 +26,7 @@ hbherecoMethod0 = hbhereco.clone()
 hbherecoMethod0.hbheInput = cms.InputTag('hbheprerecoMethod0')
 
 hcalTupleHBHERecHits = cms.EDProducer("HcalTupleMaker_HBHERecHits",
-                                      source = cms.untracked.InputTag("hbherecoMethod2"),
+                                      source = cms.untracked.InputTag("hbheprecoMethod2"),
                                       Prefix = cms.untracked.string  ("HBHERecHit"),
                                       Suffix = cms.untracked.string  ("")
                                       )
